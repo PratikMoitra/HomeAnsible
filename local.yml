@@ -10,8 +10,4 @@
     changed_when: false
 
   tasks:
-  - name: Install packages
-    ansible.builtin.package:
-      name: mc,tree,nmap,neofetch, mtr,htop,zsh,cmatrix,rclone,samba,syncthing
-      state: latest
-      
+    - include: tasks/packages.yml  
