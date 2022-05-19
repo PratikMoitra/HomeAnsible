@@ -4,4 +4,4 @@ This is My Home Automation Ansible-pull folder.
 mc, tree, neofetch, mtr, nmap, htop, zsh, cmatrix, rclone, samba, syncthing, omz
 
 ## User creation and management
-Create user senseble, pratik
+Create user senseble
