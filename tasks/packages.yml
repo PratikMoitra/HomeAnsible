@@ -1,4 +1,4 @@
 - name: Install packages
   ansible.builtin.package:
-    name: mc,tree,nmap,neofetch, mtr,htop,cmatrix,rclone,samba,syncthing,python3-pip
+    name: mc,tree,nmap,neofetch,tmux, mtr,htop,cmatrix,rclone,samba,syncthing,python3-pip
     state: latest
