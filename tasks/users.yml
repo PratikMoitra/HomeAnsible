@@ -26,4 +26,4 @@
     dest: /home/senseble
     owner: senseble
     group: senseble
-    mode: 0622
+    mode: 0644
