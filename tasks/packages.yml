@@ -1,7 +1,8 @@
 - name: Install packages
   ansible.builtin.package:
-    name: "{{ package_lists }}"
+    name: "{{ item }}"
     state: latest
+  loop: "{{ package_lists }}"
 
 - name: "Install Zerotier"
   ansible.builtin.script: $(which curl) -s https://install.zerotier.com/ | sudo bash
