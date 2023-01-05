@@ -1,6 +1,6 @@
   vars:
     zt_network_id: 8bd5124fd6e39fcc
-    additional_pkgs:
+    package_lists:
       - neofetch
       - mtr
       - curl
