@@ -1,6 +1,6 @@
 - name: Install packages
   ansible.builtin.package:
-    name: "{{ package_lists}}"
+    name: "{{ package_lists }}"
     state: latest
 
 - name: "Install Zerotier"
