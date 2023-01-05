@@ -1,0 +1,17 @@
+  vars:
+    zt_network_id: 8bd5124fd6e39fcc
+    additional_pkgs:
+      - neofetch
+      - mtr
+      - curl
+      - nmap
+      - bpython
+      - mc
+      - samba
+      - syncthing
+      - rclone
+      - rsync
+      - tmux
+      - git
+      - python3
+      - python3-pip
